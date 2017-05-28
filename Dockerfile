@@ -11,5 +11,4 @@ RUN mkdir $GOGS_CUSTOM/conf && \
 VOLUME $GOGS_CUSTOM /var/log/gogs
 WORKDIR $GOGS_CUSTOM
 USER $USER
-EXPOSE 22 3000
 ENTRYPOINT ["gogs", "web"]
