@@ -1,4 +1,4 @@
-FROM ring0club/git:2.13.0-r0
+FROM ring0club/git:2.14.1-r1
 RUN apk add openssh --no-cache
 RUN apk add gogs=0.9.97-r1 \
     --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
