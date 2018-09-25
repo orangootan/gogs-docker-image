@@ -1,6 +1,6 @@
-FROM ring0club/git:2.17.1-r0
+FROM ring0club/git:2.19.0-r0
 RUN apk add openssh-keygen --no-cache
-RUN apk add gogs=0.11.34-r0 \
+RUN apk add gogs=0.11.34-r2 \
     --repository https://nl.alpinelinux.org/alpine/edge/community \
     --no-cache
 # variable USER used by gogs to check for current user(!)
